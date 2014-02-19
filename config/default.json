@@ -1,0 +1,11 @@
+{
+  "app" : {
+    "cookie_secret" : "please-rename-me",
+    "port" : 3000    
+  },
+  "couchdb" : {
+    "host"     : "127.0.0.1",
+    "password" : false,
+    "bucket"   : "chatterbox"
+  }
+}

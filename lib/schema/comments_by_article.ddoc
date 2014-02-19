@@ -1,0 +1,12 @@
+{
+   "views" : {
+      "View Comments By Article" : {
+         "map" : "function (doc, meta) {\n  if (doc.type == \"comment\") {\n  emit([doc.post, doc.level, doc.parent, doc.time], doc);\n  }\n  }"
+      },
+      "List Articles" : {
+         "map" : "function (doc, meta) {\n  if (doc.type == \"comment\") {\n  emit(doc.post, null);\n  }\n  }"
+      }
+   }
+}
+
+

@@ -1,0 +1,42 @@
+{
+  "name": "Chatterbox",
+  "version": "0.0.1",
+  "description": "A lightweight, Couchbase-backed commenting system.",
+  "main": "server.js",
+  "dependencies": {
+    "couchbase": "1.2.0",
+    "moment": "2.5.1",
+    "node-uuid": "1.4.1",
+    "winston": "0.7.2",
+    "config": "0.4.35",
+    "express": "3.4.8",
+    "lodash": "2.4.1",
+  },
+  "devDependencies": {
+    "charlatan": "0.1.9",
+    "faker": "0.0.6"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awinder/chatterbox.git"
+  },
+  "keywords": [
+    "node",
+    "couchbase",
+    "comment",
+    "commenting",
+    "express"
+  ],
+  "bin" : {
+    "chatterbox" : "bin/chatterbox"
+  },
+  "author": "Andrew Winder",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/awinder/chatterbox/issues"
+  }
+}
