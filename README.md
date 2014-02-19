@@ -1,4 +1,4 @@
-chatterbox
+Chatterbox
 ==========
 
-A lightweight, Couchbase-backed commenting system
+A lightweight, Couchbase-backed commenting system.
